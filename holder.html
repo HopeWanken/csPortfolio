@@ -1,0 +1,82 @@
+<!--
+<h1>Mad Libs</h1>
+    <div class="flex2">
+        <div class="mad">
+            <script type="text/p5" data-height="450" data-autoplay data-preview-width="400">
+function setup() {
+  createCanvas(800, 800);
+}
+function draw() {
+    getBox();
+    background(220);
+  var clicks =0;
+//sets a random int between 0 and 2 inclusive
+  var s = Math.floor(Math.random()*3);
+//sets words for the madlib
+  var verb1 = fillIn("VERB ENDING IN -ING");
+  var adverb1 = fillIn("ADVERB");
+  var noun1 = fillIn("NOUN");
+  var adjective1 = fillIn("ADJECTIVE");
+  var pn1 = fillIn("PLURAL NOUN");
+  var verb2 = fillIn("VERB ENDING IN -ING");
+  var verb3 = fillIn("VERB ENDING IN -ING ");
+  var place1 = fillIn("PLACE");
+  var adjective2 = fillIn("ADJECTIVE");
+  var adjective3 = fillIn("ADJECTIVE");
+  var pn2 = fillIn("PLURAL NOUN");
+  var adverb2 = fillIn("ADVERB");
+//picks a story outline based on var s
+  if (s==0) {
+  story = "Once Upon a Time...  " +noun1+ " loved " +verb1+ ". One day " +noun1+ " was " +adverb1+ " " +verb2+ " when the " +adjective1+ " "+pn1+ " said to " +noun1+ " you are late! " +noun1+ " took off " +verb3+ ". " +noun1+ " soon arrived at " +place1+ ". There " +noun1+ " found " +pn2+ ". They were very " +adjective2+ ". They lived " +adverb2+ " ever after! ";
+  background(254, 184, 198);
+  }
+  else if (s==1) {
+    story = "I am a very " +adjective1+ " basketball player, but I hate " +verb1+ ". Instead, I go " +verb2+ " " +adverb1+ ". One day coach had us " +verb3+ " with " +pn1+ ". It was " +adjective2+ ". Today I went to " +place1+ ". I saw some " +adjective3+ " " +pn2+ ". Oh no! I'm late to practice! I need to " +adverb2+ " run!"
+    background(255, 165, 0);
+  }
+  else if (s==2) {
+    story = "Breaking News! " +noun1+ " is loose in " +place1+ "! Do not go " +verb1+ ". There are " +pn1+ " on the case. Most endangered things are: " +adjective1+ " " +pn2+ " and people who enjoy " +verb2+ ". There's been a new development! The " +noun1+ " is now " +adverb1 + " " +verb3+ " through " +adjective2+ " " +place1+ "! We will keep you updated with more " +adjective3+ " updates." 
+    background(207, 238, 250);
+  }
+//calls getTitle method to display madlibs
+  getTitle("Mad Libs");
+  getShadow("Mad Libs");
+//calls the showStory to display the story
+  showStory();
+//sets up the text
+  textSize(40);
+  fill(0);
+//displays call
+  text("Click to play again", 250, 550);
+//prevents infinite loop
+  noLoop();
+}
+
+//prompts the user to fill in the blank
+function fillIn (type) {
+  return prompt("enter "+type, "<enter " +type+ " here>");
+}
+
+//code for the title
+function getTitle (t){
+  textSize(50);
+  fill(0);
+  text(t, 310, 100);
+}
+function getShadow (t) {
+  textSize(50);
+  fill(0, 140);
+  text(t, 315, 105);
+}
+
+//code for the story
+function showStory () {
+  fill(0);
+  textSize(30);
+  text(story, 100, 150, 600, 700);
+}
+function getBox () {
+  fill(255, 255, 255);
+  rect(210, 500, 400, 65);
+}
+-->
