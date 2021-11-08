@@ -169,7 +169,7 @@ body {
       #c {
         text-align:center;
       }
-      #proj {
+      .proj {
         width: 800px;
         height: 800px;
         border: 0px;
