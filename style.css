@@ -236,6 +236,9 @@ body {
        #calInfo {
         text-align: left;
        }
+       .textAfterBr {
+         font-weight: normal;        
+       }
       .pinfo {
         width: 37vw;
         padding-left: 20px;
