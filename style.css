@@ -22,6 +22,7 @@ body {
         color: #EDEDED;
         font-size:calc(12px + .5vw);
         line-height: 1.35;
+        font-weight: normal;
       }
       hr {
         color: #EDEDED;
