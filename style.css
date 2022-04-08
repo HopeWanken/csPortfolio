@@ -218,7 +218,7 @@ body {
         justify-content: space-evenly;
       }
       #cal {
-        justify-content: space-evenly;
+        justify-content: start;
       }
       #sr {
         justify-content: space-evenly;
