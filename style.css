@@ -232,6 +232,9 @@ body {
       #sitm {
               justify-content: space-evenly;
       }
+       #calInfo {
+        text-align: left;
+       }
       .pinfo {
         width: 37vw;
         padding-left: 20px;
