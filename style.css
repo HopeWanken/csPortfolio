@@ -239,7 +239,7 @@ body {
       }
       hr {
        color: #000a14;
-       width: 30px;
+       weight: 10px;
       }
       .code {
         width: 95vw;
