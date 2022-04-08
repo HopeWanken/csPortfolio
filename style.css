@@ -199,6 +199,12 @@ body {
           border: 0px;
           padding: 10px;
         }
+        .proj7 {
+          width: 800px;
+          height: 1000px;
+          border: 0px;
+          padding: 10px;       
+        }
        #proj3 {
         width: 400px;
         height: 400px;
@@ -206,6 +212,15 @@ body {
         padding: 10px;
       }
       #b {
+        justify-content: space-evenly;
+      }
+      #bc {
+        justify-content: space-evenly;
+      }
+      #cal {
+        justify-content: space-evenly;
+      }
+      #sr {
         justify-content: space-evenly;
       }
       #ml {
