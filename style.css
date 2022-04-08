@@ -1,5 +1,5 @@
 body {
-        background-color: #042940;
+        background-color: #fdfbfb;
         }
       #bannerimg {
         display: flex;
@@ -19,7 +19,7 @@ body {
         color: #6399BA;
       }
       p {
-        color: #EDEDED;
+        color: #000a14;
         font-size:calc(12px + .5vw);
         line-height: 1.35;
         font-weight: normal;
