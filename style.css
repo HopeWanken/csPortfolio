@@ -172,43 +172,43 @@ body {
       }
       .proj {
         width: 800px;
-        height: 800px;
+        height: 850px;
         border: 0px;
         padding: 10px;
       }
       .proj2 {
         width: 400px;
-        height: 400px;
+        height: 450px;
         border: 0px;
         padding: 10px;
       }
       .proj4 {
         width: 800px;
-        height: 800px;
+        height: 850px;
         border: 0px;
         padding: 10px;
       }
         .proj5 {
           width: 950px;
-          height: 825px;
+          height: 875px;
           border: 0px;
           padding: 10px;
         }
         .proj6 {
           width: 600px;
-          height: 600px;
+          height: 650px;
           border: 0px;
           padding: 10px;
         }
         .proj7 {
           width: 800px;
-          height: 1000px;
+          height: 1050px;
           border: 0px;
           padding: 10px;       
         }
        #proj3 {
         width: 400px;
-        height: 400px;
+        height: 450px;
         border: 0px;
         padding: 10px;
       }
@@ -235,9 +235,6 @@ body {
       }
        #calInfo {
         text-align: left;
-       }
-       .textAfterBr {
-         font-weight: normal;        
        }
       .pinfo {
         width: 37vw;
