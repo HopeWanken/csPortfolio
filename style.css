@@ -19,13 +19,10 @@ body {
         color: #6399BA;
       }
       p {
-        color: #000a14;
+        color: #001429;
         font-size:calc(12px + .5vw);
         line-height: 1.35;
         font-weight: normal;
-      }
-      hr {
-        color: #EDEDED;
       }
       a {
         color: #EDEDED;
@@ -83,7 +80,7 @@ body {
         background-color: #B8CAD9; 
        }
       #active {
-        background-color: #32B8AA;
+        background-color: #001f3d;
       }
       .dropdown:hover .content {
         display: block;
