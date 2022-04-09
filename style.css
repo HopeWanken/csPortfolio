@@ -29,6 +29,11 @@ body {
         font-size: 25px;
         font-family: 'Open Sans', sans-serif;
       }
+       .projLink {
+          color: #F2B5A7;
+          font-size: 25px;
+          font-family: 'Open Sans', sans-serif;
+       }
       #nav {
         display: flex;
         justify-content: space-around;
@@ -216,7 +221,7 @@ body {
         justify-content: space-evenly;
       }
       #cal {
-        justify-content: start;
+        justify-content: space-evenly;
       }
       #sr {
         justify-content: space-evenly;
